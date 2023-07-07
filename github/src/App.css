@@ -28,13 +28,16 @@ body {
   position: sticky;
   display: flex;
   flex-direction: column;
-}
-.repository-sidebar {
   max-width: 350px;
-}
-.repository-section {
   background-color: white;
+  height: 100vh;
+  overflow-y: auto;
+
 }
+
 main {
   background-color: #F6F9FA;
+}
+.rest {
+  display: flex;
 }

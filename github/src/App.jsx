@@ -23,8 +23,8 @@ function App() {
    <main role="main">
 
     <aside className='repository-activity'>
-      <div className='repository-sidebar'>
-        <div className='repository-dash'>
+      <div className='repository-activity-container'>
+        <div className='repository-wrapper'>
           <h3>Top Repositories</h3>
           <button>New</button>
           <form>
@@ -44,7 +44,7 @@ function App() {
       </div>
     </aside>
 
-<div>
+<div className='rest'>
     <div className="feed-section">
       <div>
         <h3>For you</h3>
