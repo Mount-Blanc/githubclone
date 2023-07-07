@@ -20,6 +20,7 @@ function App() {
     </nav>
    </header>
    <main>
+
     <section>
       <div>
         <div>
@@ -40,6 +41,7 @@ function App() {
         </div>
       </div>
     </section>
+
     <secction>
       <div>
         <h3>For you</h3>
@@ -57,7 +59,21 @@ function App() {
         </p>
       </div>
     </secction>
-    <section></section>
+
+    <section>
+      <h2>Latest changes</h2>
+      <div>
+        <div><h5>time ago</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quae id numquam sit eveniet. Consectetur totam modi, animi quo voluptatem nemo quis nihil exercitationem harum quam delectus ut aut dolor.</p></div>
+      </div>
+      <div>
+        <h3>Explore repositories</h3>
+        <div>
+          <h3>name of example repository</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, accusantium? Nobis cumque deserunt veniam consectetur velit. Id asperiores odit ut dolorum, numquam eaque, in animi incidunt doloribus consectetur qui ullam!</p>
+        </div>
+      </div>
+    </section>
     </main>  
     </>
   )
