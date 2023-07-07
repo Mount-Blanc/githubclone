@@ -1,0 +1,7 @@
+Aria-Attributes
+    role
+Semantic Elements 
+    Aside
+In the case of three columns; two asides with a main in the center
+There is nesting; generally each div level handles only some small part of css.
+level one could be colors level two could be padding and so on.

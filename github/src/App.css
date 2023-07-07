@@ -10,3 +10,31 @@ body {
   padding: 1rem;
   outline: 1px solid grey;
 }
+.skip-link {
+  position: fixed;
+  top: -40px;
+      left: 0;
+      background-color: #000;
+      color: #fff;
+      padding: 8px;
+      z-index: 9999;
+}
+.skip-link:focus {
+  top: 0;
+}
+.repository-activity {
+  top: 0;
+  bottom:0;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+}
+.repository-sidebar {
+  max-width: 350px;
+}
+.repository-section {
+  background-color: white;
+}
+main {
+  background-color: #F6F9FA;
+}

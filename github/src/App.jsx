@@ -5,7 +5,8 @@ function App() {
 
   return (
     <>
-   <header>
+      <a href="#main-content" class="skip-link">Skip to main content</a>
+   <header role="banner">
     <nav className='header-container'>
       <div>
         <button>menu</button>
@@ -19,15 +20,16 @@ function App() {
       </div>
     </nav>
    </header>
-   <main>
+   <main role="main">
 
-    <section>
-      <div>
-        <div>
+    <aside className='repository-activity'>
+      <div className='repository-sidebar'>
+        <div className='repository-dash'>
           <h3>Top Repositories</h3>
           <button>New</button>
-          <input placeholder='Find a repository...'/>
-        </div>
+          <form>
+          <input id="search-input" type="text" placeholder="Type / to search" />
+        </form>        </div>
         <div>
           <p>User/Repository</p>
         </div>
@@ -40,9 +42,10 @@ function App() {
           </div>
         </div>
       </div>
-    </section>
+    </aside>
 
-    <secction>
+<div>
+    <div className="feed-section">
       <div>
         <h3>For you</h3>
         <h3>Following</h3>
@@ -58,9 +61,9 @@ function App() {
 
         </p>
       </div>
-    </secction>
+    </div>
 
-    <section>
+    <aside className='changes-section'>
       <h2>Latest changes</h2>
       <div>
         <div><h5>time ago</h5>
@@ -73,7 +76,9 @@ function App() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, accusantium? Nobis cumque deserunt veniam consectetur velit. Id asperiores odit ut dolorum, numquam eaque, in animi incidunt doloribus consectetur qui ullam!</p>
         </div>
       </div>
-    </section>
+    </aside>
+</div>
+  
     </main>  
     </>
   )
