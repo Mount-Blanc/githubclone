@@ -25,8 +25,7 @@ function App() {
     <aside className='repository-activity'>
       <div className='repository-activity-container'>
         <div className='repository-wrapper'>
-          <h3>Top Repositories</h3>
-          <button>New</button>
+          <h3>Top Repositories   <button>New</button> </h3>
           <form>
           <input id="search-input" type="text" placeholder="Type / to search" />
         </form>        </div>

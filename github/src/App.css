@@ -43,3 +43,8 @@ main {
   display: flex;
   flex: 1; /* Add flex: 1 to allow the div to grow and occupy remaining space */
 }
+.feed-section {
+  padding-inline: 32px;
+  margin-top: 16px;
+  width:100%
+}
