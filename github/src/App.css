@@ -28,16 +28,18 @@ body {
   position: sticky;
   display: flex;
   flex-direction: column;
-  max-width: 350px;
   background-color: white;
   height: 100vh;
   overflow-y: auto;
-
+  flex: 0 0 350px;
+  max-width: 350px;
 }
 
 main {
   background-color: #F6F9FA;
+  display: flex;
 }
 .rest {
   display: flex;
+  flex: 1; /* Add flex: 1 to allow the div to grow and occupy remaining space */
 }
