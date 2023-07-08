@@ -46,12 +46,16 @@ function App() {
 <div className='rest'>
     <div className="feed-section">
       <div className='feed-header'>
+        
+      <div className='feed-header-left'>
         <h3>For you</h3>
         <h3>Following</h3>
-        <div>
+       
+        </div>
+        <div className='feed-header-right'>
           <p>Send feedback</p>
           <p>Filter</p>
-        </div>
+          </div>
       </div>
       <div className='card'>
         <h3>Welcome to the new feed !</h3>
