@@ -34,6 +34,7 @@ body {
   flex: 0 0 350px;
   max-width: 350px;
   margin-top: .7px;
+  border-right: 1px solid grey;
 }
 
 main {
