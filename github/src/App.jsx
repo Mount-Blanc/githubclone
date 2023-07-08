@@ -46,7 +46,7 @@ function App() {
 <div className='rest'>
     <div className="feed-section">
       <div className='feed-header'>
-        
+
       <div className='feed-header-left'>
         <h3>For you</h3>
         <h3>Following</h3>
@@ -64,6 +64,30 @@ function App() {
 
         </p>
       </div>
+
+
+  <footer>
+    <ul className='links'>
+      <li><a href=''>Blog</a></li>
+      <li><a href=''>About</a></li>
+      <li><a href=''>Shop</a></li>
+      <li><a href=''>Contact Github</a></li>
+      <li><a href=''>Pricing</a></li>
+
+    </ul>
+    <ul className='links'>
+      <li><a href=''>API</a></li>
+      <li><a href=''>Training</a></li>
+      <li><a href=''>Status</a></li>
+      <li><a href=''>Security</a></li>
+
+    </ul>
+    <ul className='links'>
+      <li><a href=''>Terms</a></li>
+      <li><a href=''>Privacy</a></li>
+      <li><a href=''>Docs</a></li>
+      </ul>
+  </footer>
     </div>
 
     <aside className='changes-section'>

@@ -80,3 +80,12 @@ main {
 .changes-section {
   max-width: 350px;
 }
+.links {
+  list-style: none;
+}
+.links li a{
+  text-decoration: none;
+}
+footer {
+  display: flex;
+}
