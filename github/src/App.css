@@ -48,3 +48,11 @@ main {
   margin-top: 16px;
   width:100%
 }
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}

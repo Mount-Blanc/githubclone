@@ -8,11 +8,11 @@ function App() {
       <a href="#main-content" class="skip-link">Skip to main content</a>
    <header role="banner">
     <nav className='header-container'>
-      <div>
+      <div className='nav-left'>
         <button>menu</button>
         <h2>Dashboard</h2>
       </div>
-      <div>
+      <div className='nav-right'>
         <form>
           <input placeholder='Type / to search'/>
         </form>
