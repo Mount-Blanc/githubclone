@@ -33,6 +33,7 @@ body {
   overflow-y: auto;
   flex: 0 0 350px;
   max-width: 350px;
+  margin-top: .7px;
 }
 
 main {
