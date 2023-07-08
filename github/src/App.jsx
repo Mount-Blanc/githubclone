@@ -45,7 +45,7 @@ function App() {
 
 <div className='rest'>
     <div className="feed-section">
-      <div>
+      <div className='feed-header'>
         <h3>For you</h3>
         <h3>Following</h3>
         <div>
@@ -53,7 +53,7 @@ function App() {
           <p>Filter</p>
         </div>
       </div>
-      <div>
+      <div className='card'>
         <h3>Welcome to the new feed !</h3>
         <p>We're updating the cards and ranking all the time , so check back
           regularly. At first, you might need to follow some people or star some Repositories to get started

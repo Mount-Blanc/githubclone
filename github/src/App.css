@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #F6F9FA;
-  padding: 1rem;
+  padding: .3rem;
   outline: 1px solid grey;
 }
 .skip-link {
@@ -48,6 +48,7 @@ main {
   margin-top: 16px;
   width:100%
 }
+
 .nav-left {
   display: flex;
   align-items: center;
@@ -55,4 +56,16 @@ main {
 .nav-right {
   display: flex;
   align-items: center;
+}
+.card {
+  background-color:white;
+  padding: 1rem;
+  border-radius: 5px;
+  outline:1px solid grey;
+}
+.feed-header {
+  display: flex;
+}
+.changes-section {
+  max-width: 350px;
 }
