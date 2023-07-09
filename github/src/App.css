@@ -36,6 +36,9 @@ body {
   margin-top: .7px;
   border-right: 1px solid grey;
 }
+.repository-activity-container {
+  padding:16px 24px 0px 24px
+}
 
 main {
   background-color: #F6F9FA;
